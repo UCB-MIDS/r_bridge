@@ -4,9 +4,12 @@ Welcome! This is a demo repo for the R Bridge Course. You're free to work with t
 
 # Your Contributions 
 
-We would love your thoughts about what might be usefully put in this demo repo. **But even more** we would love your contributions! Issue a PR! 
+We would love your thoughts about what might be usefully put in this demo repo. **But even more** we would love your contributions! Issue a PR! You can put links to student resources for learning about github in the section below if you like, or wherever you think makes the most sense. 
 
 # Main Task 
 
 1. Create a document that has the form `year_semester_yourname.md`. 
 2. Inside this document, write about a recent trip to the grocery store or market, and the thing that you bought you were the *most* excited about. 
+
+# Student resources for learning about git and GitHub. 
+
