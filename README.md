@@ -1,6 +1,6 @@
 # A Demo Repository 
 
-Welcome! This is a demo repo for the R Bridge Course. You're free to work with this repository in any way that you see fit. As a note, this is a public repository, so your peers and classmates also have access to it, and will be puling it to their machines. 
+Welcome! This is a demo repository for the R Bridge Course. A repository is a file system that you can maintain. You're free to work with this repository in any way that you see fit. As a note, this is a public repository, so your peers and classmates also have access to it, and will be puling it to their machines. 
 
 # Your Contributions 
 
