@@ -14,6 +14,8 @@ This course is designed so that students can complete the *incoming*, structured
 
 # Course Syllabus 
 
+
+
 As a bridge course, this course is distinct from the main course offerings of the School of Information -- there are no syncronous discussion sections, and there are no graded assessments. Instead, this is a self-paced course of study designed to be completed in roughly a week before beginning a credit-bearing course. 
 
 The class works closely from [R for Data Science](https://r4ds.had.co.nz "r4ds") to prepare students for the theoretical and applied work. We recommend the course for students preparing to take *Statistics for Data Scientists* (w203); but the course might also be a useful refresher for students who are taking *Experiments and Causal Inference* (w241) and *Statistical Methods for Discrete Rseponse, Time Series, and Panel Data* (w271). 
@@ -28,7 +30,7 @@ You can probably nagivate a busy market and appreciate the culture in a foreign 
 
 <!-- Detailed information about the course is available on the following pages:  -->
 
-<!-- - [Course Syllabus](./syllabus.md "syllabus") -->
+- [Course Syllabus](./syllabus.md "syllabus")
 <!-- - [Course Schedule](./schedule.md "schedule")  -->
 <!-- - Course Book -->
 <!--   - [Print Edition](https://www.amazon.com/Data-Science-Transform-Visualize-Model/dp/1491910399/ref=sr_1_1?dchild=1&keywords=r+for+data+science&qid=1591409650&sr=8-1) -->
