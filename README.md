@@ -12,8 +12,8 @@ As a bridge course, this course is distinct from the main course offerings of th
 
 Detailed information about the course is available on the following pages: 
 
-- [Course Syllabus](./docs/syllabus.md "syllabus")
-- [Course Schedule](./docs/schedule.md "schedule") 
+- [Course Syllabus](./syllabus.md "syllabus")
+- [Course Schedule](./schedule.md "schedule") 
 - Course Book
   - [Print Edition](https://www.amazon.com/Data-Science-Transform-Visualize-Model/dp/1491910399/ref=sr_1_1?dchild=1&keywords=r+for+data+science&qid=1591409650&sr=8-1)
   - [Digital Edition](https://r4ds.had.co.nz).
