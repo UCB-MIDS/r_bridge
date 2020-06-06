@@ -12,6 +12,6 @@ As a bridge course, this course is distinct from the main course offerings of th
 
 Detailed information about the course is available on the following pages: 
 
-- [Course Syllabus](./docs/syllabus.md "syllabus"). 
+- [Course Syllabus](./docs/syllabus.md "syllabus")
 - [Course Schedule](./docs/schedule.md "schedule") 
 - [Course Book](./docs/book.md "book")
