@@ -14,4 +14,6 @@ Detailed information about the course is available on the following pages:
 
 - [Course Syllabus](./docs/syllabus.md "syllabus")
 - [Course Schedule](./docs/schedule.md "schedule") 
-- The course book is available two ways: [in print](https://www.amazon.com/Data-Science-Transform-Visualize-Model/dp/1491910399/ref=sr_1_1?dchild=1&keywords=r+for+data+science&qid=1591409650&sr=8-1) and [digitally](https://r4ds.had.co.nz). The digital version is really nicely done.
+- Course Book
+  - [Print Edition](https://www.amazon.com/Data-Science-Transform-Visualize-Model/dp/1491910399/ref=sr_1_1?dchild=1&keywords=r+for+data+science&qid=1591409650&sr=8-1)
+  - [Digital Edition](https://r4ds.had.co.nz).
