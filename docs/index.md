@@ -2,6 +2,9 @@
 
 As a bridge course, this course is distinct from the main course offerings of the School of Information -- there are no syncronous discussion sections, and there are no graded assessments. Instead, this is a self-paced course of study designed to be completed in roughly a week before beginning a credit-bearing course. 
 
+- [Syllabus](./syllabus.md)
+- [Schedule](./schedule.md)
+
 The class works closely from [R for Data Science](https://r4ds.had.co.nz "r4ds") to prepare students for the theoretical and applied work. We recommend the course for students preparing to take *Statistics for Data Scientists* (w203); but the course might also be a useful refresher for students who are taking *Experiments and Causal Inference* (w241) and *Statistical Methods for Discrete Rseponse, Time Series, and Panel Data* (w271). 
 
 In contrast to many methods of learning new languages, this course focuses on working with high-level parts of the language -- namely plotting (from `ggplot2`) and data manipulation (from `dplyr`) before addressing lower-level parts of the language. Indeed, this course is at an even higher-level part of the langauge api than the *R for Data Science* textbook. 
