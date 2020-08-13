@@ -8,9 +8,9 @@ For right now, we want to discourage you from installing locally. Instead, we wa
 
 Installing locally will mean 
 
-- That you get access to full resources on your local machine :+1: 
+- That you get access to full resources on your local machine :tada: 
 - That you have to manage the access to all of those resources :-1: 
-- That your setup will be different than everyone else's setup :-1: :-1:
+- That your setup will be different than everyone else's setup :fire:
 
 For now, when we have a limited vitew of what we're actually going to need, we think that we shouldn't over-invest in building technology. This probably means that we are "borrowing" from our future and so will have technical debt to pay. But, for right now, being cash rich and using the language is important. 
 
