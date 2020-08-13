@@ -9,8 +9,9 @@ The work is going to be simple -- I am asking you to execute code that has alrea
 
 If you click [this link to the UCB Datahub](https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-MIDS%2Fr_bridge&urlpath=rstudio%2F&branch=master) the datahub will pull a current version of the code that I would like you to work on. 
 
-When the datahub starts up, navigate to the `r_bridge` folder, and then `code` and then to the file called, `issuing_code_and_reading_outputs.R`. 
+When the datahub starts up, navigate to the `r_bridge` folder, and then `code` and then to the file called, `interacting_with_the_IDE.R`. 
+
+Although you can't see the image here in the IVSC, if you're lost and would like a picture to show you where I'm navigating, if you "Open in GitHub" there will be a image that shows. 
 
 ![](./images/r_bridge_datahub.png)
-
-There is kind of a lot of code in there, but you should be able to find it. 
+ 
