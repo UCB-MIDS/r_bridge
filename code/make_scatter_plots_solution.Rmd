@@ -3,12 +3,15 @@ Title: 'Make Scatter Plots Solution'
 output: github_document
 ---
 
-```{r setup}
+```{r setup, results = 'hide', warning=FALSE, message=FALSE}
 library(tidyverse)
 library(ggplot2)
 theme_set(theme_minimal())
 knitr::opts_chunk$set(dpi = 200)
 ```
+
+This output is best viewed over in github because we cannot render images into
+the ISVC. 
 
 # Load data: this should just work
 ```{r load data}
