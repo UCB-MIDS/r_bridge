@@ -1,0 +1,43 @@
+---
+title: "Line Plots Solutions"
+author: 'w203: Statistics for Data Science'
+output: github_document
+---
+
+```{r setup, results = 'hide', warning=FALSE, message=FALSE}
+library(tidyverse)
+library(ggplot2)
+theme_set(theme_minimal())
+knitr::opts_chunk$set(dpi = 200)
+```
+
+```{r load data}
+squirrel_subset <- read_csv('./squirrels_subset.csv')
+squirrel_subset <- squirrel_subset %>%
+  mutate(date_f = as.Date.character(date, format = '%m%d%Y'))
+```
+
+# Squirrels by date 
+
+- Make a line plot that shows the squirrels observed by date
+
+```{r}
+squirrel_subset %>%
+  group_by(date_f) %>%
+  summarise(count_of_squirrels = n()) %>%
+  ggplot() +
+  aes(x = date_f, y = count_of_squirrels) +
+  geom_line()
+```
+
+# Challenge: Squirrels by color by date
+
+```{r}
+squirrel_subset %>%
+  group_by(date_f, primary_fur_color) %>%
+  summarise(count_of_squirrels = n()) %>%
+  ggplot() +
+  aes(x = date_f, y = count_of_squirrels, color = primary_fur_color) +
+  geom_line()
+```
+
