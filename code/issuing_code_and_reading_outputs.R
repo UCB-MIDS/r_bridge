@@ -7,7 +7,7 @@
 
 not_commented <- 'yes' # but this is now commented. 
 
-## Note as well, that we're tryhing to keep our lines to fewer than 80
+## Note as well, that we're trying to keep our lines to fewer than 80
 ## characters per line. This is _generally_ accepted best practice for code.
 
 ## Run the following line, creating an object called `dogs` that has the
@@ -50,9 +50,9 @@ library(nycdogs)
 ## What are the names of the variables that are in the data? 
 names(nyc_license)
 
-## (Real quick: Do dogs have genders? Deep thoughts.)
+## (Real quick: Why do people gender dogs? Deep thoughts.)
 
-## Whare are the most common names in NYC? 
+## What are the most common names in NYC? 
 nyc_license %>% 
   group_by(animal_name) %>% 
   summarize(total = n()) %>% 
