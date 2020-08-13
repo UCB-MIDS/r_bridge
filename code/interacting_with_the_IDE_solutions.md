@@ -46,7 +46,7 @@ ggplot(data = d, aes(x=x, y=y)) +
   geom_point()
 ```
 
-![](working_with_rstudio_solution_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](interacting_with_the_IDE_solutions_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
 ``` r
 ## Finally, you can run code that doesn't have any visible side effects.
