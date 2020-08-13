@@ -1,0 +1,26 @@
+---
+title: "Show, Hide, Comment"
+author: "Alex Hughes"
+date: "6/7/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Show 
+
+- Code that loads data (always) 
+- Code that estimates models (always)
+- A Dump of Data (never)
+
+# Hide 
+
+- Cleaning code (unless that is the review that you're looking for)
+- Issues and notes to yourself 
+
+# Comment 
+
+- Documentation for functions, in the function
+- Any knowledge that someone *running* the code might need. 
