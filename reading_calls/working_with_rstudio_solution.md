@@ -4,12 +4,14 @@ If you're interested in seeing the solutions to the _small_ amount of code that 
 
 But, I really only asked you to combine two lines, so you can probably view it here instead.  
 
-# Cats 
+## Cats 
 If you want to make a `cats` object that contains a vector of cat names, you can do so in the following way (you pick the names). 
 
 ```
 cats <- c('Fluffy', 'Tiger')
 ```
+
+## Top Dogs 
 
 To create an object called `top_dog_names` that contains the most frequently used dog names you can "assign" the filtering pipeline that I wrote into the object using the `<-` operator.
 
@@ -23,3 +25,5 @@ top_dog_names <- nyc_license %>%
   summarize(total = n()) %>% 
   arrange(desc(total)) # this arranges in decending order 
 ```
+
+(Fun fact, [Top Dog](http://www.topdoghotdogs.com) is delicious. )
