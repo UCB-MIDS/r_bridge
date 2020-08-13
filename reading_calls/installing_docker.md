@@ -27,11 +27,11 @@ Once you have installed Docker, and with it running, you can pull a fully built 
 
 Here’s what is happening with that call: 
 
-`docker run` uses the docker command line client to start running a docker process 
-`--rm` specifies that when we close the container, we also want to remove it to keep it from laying around 
-`-v` specifies that we would like to mount a volume (a file folder) into this container from our local machine to the container that is running. We have to specify both where it exists locally, and where we would like it to exist on the container
-`-p` specifies what port we would like to view this on; a standard choice that is reserved for this type of work is port 8787. Here, we’re specifying that we would like port 8787 on the local machine to interface with port 8787 on the container. 
-`-e` sets an additional environment variable that we’re going to need to login to the rstudio server, namely the password. Here we’re setting this to a benign value of foo. 
+- `docker run` uses the docker command line client to start running a docker process 
+- `--rm` specifies that when we close the container, we also want to remove it to keep it from laying around 
+- `-v` specifies that we would like to mount a volume (a file folder) into this container from our local machine to the container that is running. We have to specify both where it exists locally, and where we would like it to exist on the container
+- `-p` specifies what port we would like to view this on; a standard choice that is reserved for this type of work is port 8787. Here, we’re specifying that we would like port 8787 on the local machine to interface with port 8787 on the container. 
+- `-e` sets an additional environment variable that we’re going to need to login to the rstudio server, namely the password. Here we’re setting this to a benign value of foo. 
 `rocker/tidyverse` is the container image that we want to run. 
 
 So, if you were to narrate that entire call from front to back, it would read as: 
