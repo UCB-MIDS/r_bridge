@@ -46,7 +46,7 @@ ggplot(data = d, aes(x=x, y=y)) +
   geom_point()
 ```
 
-![](interacting_with_the_IDE_solutions_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](working_with_rstudio_solution_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
 ``` r
 ## Finally, you can run code that doesn't have any visible side effects.
@@ -68,7 +68,7 @@ mod
     ## 
     ## Coefficients:
     ## (Intercept)            x  
-    ##     9.98360     -0.02651
+    ##      9.9418       0.0556
 
 ``` r
 ## If you want to use the summary function on the model, you can and you will see
@@ -83,15 +83,15 @@ summary(mod)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -7.3850 -1.3606 -0.0425  1.3237  5.8412 
+    ## -6.8812 -1.2280 -0.0065  1.3295  5.8167 
     ## 
     ## Coefficients:
     ##             Estimate Std. Error t value Pr(>|t|)    
-    ## (Intercept)  9.98360    0.06521 153.093   <2e-16 ***
-    ## x           -0.02651    0.06533  -0.406    0.685    
+    ## (Intercept)  9.94179    0.06298   157.9   <2e-16 ***
+    ## x            0.05560    0.06176     0.9    0.368    
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.06 on 998 degrees of freedom
-    ## Multiple R-squared:  0.000165,   Adjusted R-squared:  -0.0008369 
-    ## F-statistic: 0.1647 on 1 and 998 DF,  p-value: 0.685
+    ## Residual standard error: 1.991 on 998 degrees of freedom
+    ## Multiple R-squared:  0.0008113,  Adjusted R-squared:  -0.0001899 
+    ## F-statistic: 0.8103 on 1 and 998 DF,  p-value: 0.3683
