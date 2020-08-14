@@ -119,13 +119,16 @@ squirrel_subset %>%
     ## `summarise()` regrouping output by 'date_f' (override with `.groups` argument)
 
 ![](grouped_data_solution_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
-\> For me, I think that these plots work a **little** bit better when
-they are stacked vertically, because then I can see that all the dates
-align. Of course, immediately upon realizing this, then it becomes very
-clear that this plot would be more successful it were to be placed on a
-single set of axes. \> \> This kind of iterative plot making is (or at
-least can be) quite fun; and, once you realize that this mapping doesn’t
-work better, you can return to the single set of axes.
+
+> For me, I think that these plots work a **little** bit better when
+> they are stacked vertically, because then I can see that all the dates
+> align. Of course, immediately upon realizing this, then it becomes
+> very clear that this plot would be more successful it were to be
+> placed on a single set of axes.
+> 
+> This kind of iterative plot making is (or at least can be) quite fun;
+> and, once you realize that this mapping doesn’t work better, you can
+> return to the single set of axes.
 
 ``` r
 squirrel_subset %>%
