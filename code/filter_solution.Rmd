@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'Filter Solution'
 author: 'w203: Statistics for Data Science'
 date: "8/13/2020"
 output: github_document

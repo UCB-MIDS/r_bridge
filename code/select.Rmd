@@ -1,0 +1,30 @@
+---
+title: 'Select'
+author: 'w203: Statistics for Data Science'
+date: "8/13/2020"
+output: github_document
+---
+
+```{r setup, results='hide', warning=FALSE, message=FALSE}
+library(tidyverse)
+```
+
+```{r load data, message=FALSE}
+agencies <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-15/agencies.csv')
+launches <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-15/launches.csv')
+```
+
+# Task 
+
+- From the launches data, `select()` only the columns that are related to characteristics about the country
+
+```{r}
+
+```
+
+- From the launches data, `select()` only the columns that are related to time
+
+```{r}
+
+```
+
