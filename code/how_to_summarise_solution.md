@@ -41,7 +41,7 @@ squirrel_subset %>%
 
     ## `summarise()` regrouping output by 'date_f' (override with `.groups` argument)
 
-![](how_to_summarize_solution_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](how_to_summarise_solution_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
 ## Your Task
 
@@ -73,7 +73,7 @@ squirrel_subset %>%
 
     ## `geom_smooth()` using method = 'loess' and formula 'y ~ x'
 
-![](how_to_summarize_solution_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](how_to_summarise_solution_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
 \> I think that this `span = 0.8` is my preferred span. You can see that
 it is *just* barely staying smooth – there are a few points where this
 plot seems to try to pull away from the general line. Setting the span
