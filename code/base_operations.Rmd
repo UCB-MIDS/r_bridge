@@ -1,0 +1,41 @@
+---
+title: "Heading to the Little Farm"
+author: 'w203: Statistics for Data Science'
+output: github_document
+---
+
+# The Little Farm 
+
+Just around the corner from campus in Berkeley is the Tilden "Little Farm" its a sort of hobby farm that has cows, goats, chickens, sheep, and a small menagerie of other cute animals. I think that idea is that kids can see animals -- but I've also got to admit that it is kind of weird to have a tiny farm in the middle of the neighborhood. 
+
+## Create Farm Data 
+
+Let's use all the methods that you've just been working on to produce a dataset that represents the farm. Using methods that you're familiar with, create the following dataset. 
+
+- A column that ranges from 1 - 300 called "ID" that is an ID for the animal. 
+- A column that has the type of animal that is being recorded: 
+    - There are 10 cows
+    - There are 50 sheep
+    - There are 40 goats 
+    - There are 70 chickens
+    - There are 130 rabbits 
+- A column that describes whether that animal belongs in the petting zoo 
+- A column that describes the weight of the animals: 
+    - Cows weight are normally distributed, with a mean of 1000kg and a sd of 100kg
+    - Sheep are normally distributed, with a mean of 100kg and a sd of 2 kg
+    - Goats are normally distributed, with a mean of 40kg and a sd of 2kg 
+    - Chickens all weight .2 kg
+    - Rabbits don't stand still long enough to be weighted, so there is no data
+- A column that described how much feed that animal needs -- this is animal specific, and depends on how much the animal weighs. 
+    - A cow needs 3% of its body weight each day to stay alive 
+    - A sheep needs 2% of its body weight each day to stay alive
+    - A goat needs 7% of its body weight each day to stay alive 
+    - A chicken needs 2% of its body weight each day to stay alive
+    
+You are free to use `dplyr` actions to modify variables, if you like.     
+    
+```{r}
+library(tidyverse)
+```
+    
+  
