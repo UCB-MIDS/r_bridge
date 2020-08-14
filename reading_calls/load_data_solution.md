@@ -1,1 +1,3 @@
-Blank Code (to be replaced when class is executed) for load_data_solution.md
+# Load Data Solution 
+
+Well, there wasn't anything to do. :100: :tada:
