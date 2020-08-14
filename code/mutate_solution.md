@@ -1,3 +1,5 @@
+Mutating a New Varible
+================
 w203: Statistics for Data Science
 8/13/2020
 
