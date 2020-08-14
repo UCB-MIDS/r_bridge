@@ -1,0 +1,51 @@
+---
+title: "Pick A Theme"
+author: 'w203: Statistics for Data Science'
+output: github_document
+---
+
+```{r setup, results='hide', warning=FALSE, message=FALSE}
+library(tidyverse)
+library(ggplot2)
+# install.packages('patchwork')
+library(patchwork)
+
+knitr::opts_chunk$set(dpi = 200)
+```
+
+```{r load and mutate data}
+squirrel_subset <- read.csv('squirrels_subset.csv')
+squirrel_subset <- filter(squirrel_subset, !is.na(primary_fur_color))
+
+squirrel_subset <- squirrel_subset %>%
+  mutate(date_f = as.Date.character(date, format = '%m%d%Y'))
+```
+
+# Coding Task 
+
+What's your style? A color maximalist? A Tufte minimalist? 
+
+The only requirement here is that you pick with communication in mind. Try out a few themes to see which you think is to your liking -- or, just use no theme at all and rely on the base colors! 
+
+```{r}
+?theme_bw
+```
+
+Remove the comment and try a few themes out.
+
+```{r coding task}
+squirrel_subset %>%  
+  group_by(date_f, primary_fur_color) %>%  
+  summarise(count_of_squirrels = n()) %>%  
+  ggplot() + 
+  aes(x = date_f, y = count_of_squirrels, color = primary_fur_color) + 
+  stat_smooth(se = FALSE) + 
+  labs(
+    title = 'There are a lot of grey squirrels',
+    subtitle = 'But, people are collecting data in later days',
+    x = 'Date of observation', 
+    y = 'Count of squirrels', 
+    color = 'Primary Fur Color') # + theme_minimal() 
+```
+
+
