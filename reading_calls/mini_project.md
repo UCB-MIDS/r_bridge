@@ -21,16 +21,16 @@ The Seattle Times did a [write-up](https://www.seattletimes.com/seattle-news/tra
 
 The Seattle bike data is available[[here]](https://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/bike-counters). But, somewhat annoyingly, for the busiest routes, they're only making a dashboard available. 
 
-However, for the bike counter that is along the I-90 Bridge that separates Seattle from Richmond, they make the full dataset available. A link is[[here]](https://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/bike-counters). 
+However, for the bike counter that is along the I-90 Bridge that separates Seattle from Richmond, they make the full dataset available. A link is [[here]](https://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/bike-counters). 
 
 With this data: 
 
 1. Download a .csv file of the data. 
 2. Load this data
-    - If it is in your downloads folder: then you can read the data with the following call: `read_csv('~/Downloads/NAME_OF_THE_DATA_THAT_YOU_DOWNLOADED.csv')` where you will replace the `NAME_OF_THE_DATA_THAT_YOU_DOWNLOADED` callout with its actual name. 
+    - If it is in your downloads folder: then you can read the data with the following call: `bike_data <- read_csv('~/Downloads/NAME_OF_THE_DATA_THAT_YOU_DOWNLOADED.csv')` where you will replace the `NAME_OF_THE_DATA_THAT_YOU_DOWNLOADED` callout with its actual name. 
 3. See if you can work with the data to identify whether there are patterns: 
     - Are there more east-bound or west-bound rides at certain parts of the day? Why might this be? 
-    - Are there months of the year that there are more total (or less) total rides? 
+    - Are there months of the year that there are more (or fewer) total rides? 
     - Are the weekends different from the weekdays? 
     
 One small complication is that the `date` field hasn't actually been turned into something that you can use. To use it (without using more advanced POSIX time series types), you will have to `mutate` pieces off of this data). 
