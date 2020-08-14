@@ -1,1 +1,3 @@
-Blank Code (to be replaced when class is executed) for restructure_codebase_solution.md
+# Solutions 
+
+Because we just read this semester, there isn't a solution here. 
