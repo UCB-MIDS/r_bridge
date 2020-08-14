@@ -54,4 +54,4 @@ plot_bar <- squirrel_subset %>%
 plot_col | plot_bar
 ```
 
-![](make_bar_plots_solutions_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](make_bar_plots_solution_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
