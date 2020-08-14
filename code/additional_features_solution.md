@@ -93,7 +93,7 @@ ggplot(data = squirrel_subset) +
   coord_quickmap()
 ```
 
-![](additional_plots_features_solution_files/figure-gfm/the%20old%20plot-1.png)<!-- -->
+![](additional_features_solution_files/figure-gfm/the%20old%20plot-1.png)<!-- -->
 
 # This plot
 
@@ -157,4 +157,4 @@ ggplot(data = squirrel_subset) +
 
     ## Warning: Using size for a discrete variable is not advised.
 
-![](additional_plots_features_solution_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](additional_features_solution_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
