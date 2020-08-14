@@ -1,0 +1,34 @@
+---
+title: "Make A Data Set"
+author: 'w203: Statistics for Data Science'
+date: "8/14/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+```
+
+# Paste Farm Code 
+
+Start by pasting the code that you wrote to create the farm animals below. 
+
+```{r}
+'farm animal creating code here' 
+```
+
+## Combine into a dataset 
+
+Now, combine all of these variables into a single dataset, called `tilden`. 
+
+## Typecast 
+
+Now do a little bit of mutating and type converting. 
+
+- Since we know that each of the types of animals has a specific amount that they eat, let's label them "hungry boi" if they eat more than average; and "slender boi" if they eat less than average. (Sorry... I know this coding might be getting tedious!). 
+- Make each of these relative to the mean within that animal type. 
+
+```{r}
+
+```
+
