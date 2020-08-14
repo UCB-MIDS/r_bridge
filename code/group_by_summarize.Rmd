@@ -1,0 +1,22 @@
+---
+title: 'Split, Apply, Combine'
+author: 'w203: Statistics for Data Science'
+date: "8/13/2020"
+output: github_document
+---
+
+```{r setup, results='hide', warning=FALSE, message=FALSE}
+library(tidyverse)
+```
+
+```{r load data, message=FALSE}
+agencies <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-15/agencies.csv')
+launches <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-15/launches.csv')
+```
+
+# Task 
+
+- Using the `launches` data, count the total number of launches per `launch_year`, grouped by `state_code`. 
+- Then, using `arrange` answer the question: which year was the busiest for any state? 
+- Then, using `filter` answer the question: what was the busiest year for the US? 
+- Then, using another variable summary, answer the question: which country has the most variance in the per-year launches?

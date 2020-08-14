@@ -1,0 +1,65 @@
+---
+title: 'Split, Apply, Combine'
+author: 'w203: Statistics for Data Science'
+date: "8/13/2020"
+output: github_document
+---
+
+```{r setup, results='hide', warning=FALSE, message=FALSE}
+library(tidyverse)
+```
+
+```{r load data, message=FALSE}
+agencies <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-15/agencies.csv')
+launches <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-15/launches.csv')
+```
+
+# Task 
+
+- Using the `launches` data, count the total number of launches per `launch_year`, grouped by `state_code`. 
+
+```{r}
+launches %>%  
+  group_by(state_code, launch_year) %>%  
+  summarise(launches_total = n()) 
+```
+
+> Roger that. 
+
+- Then, using `arrange` answer the question: which year was the busiest for any state? 
+
+```{r}
+launches %>%  
+  group_by(state_code, launch_year) %>%  
+  summarise(launches_total = n()) %>%  
+  arrange(desc(launches_total))
+```
+
+> It looks like the busiest year for any state was 1982 in the Soviet Union, followed very closely by other years right around the same time for the soviet union.
+
+- Then, using `filter` answer the question: what was the busiest year for the US? 
+
+```{r}
+launches %>%  
+  group_by(state_code, launch_year) %>%  
+  summarise(launches_total = n()) %>%  
+  filter(state_code == 'US') %>%  
+  arrange(desc(launches_total))
+```
+
+> The busiest year for the US was 1966. And, although it is a different decade than the busiest year for the Soviet Union, you can see that when a country makes an investment in their space exploration program, they seem to have pretty bursty output for launches. 
+
+- Then, using another variable summary, answer the question: which country has the most variance in the per-year launches?
+
+This is a little tricky, because I'm not asking you to include the launch year in the *final* grouping, instead, you're going to summarize *across* launch years. To do this, start as we have, but then part way through, drop the grouping by year. To do this, declare a new `group_by()` call, and then proceed with your summary.  
+
+```{r}
+launches %>%  
+  group_by(state_code, launch_year) %>%  
+  summarise(launches_total = n()) %>%  
+  group_by(state_code) %>%  
+  summarise(launches_variance = var(launches_total, na.rm = T)) %>% 
+  arrange(desc(launches_variance))
+```
+
+Think about how hard this would have been if you were writing this in some *other* idiom. It isn't that this was necessariliy easy, but that it is possible. And, it is legible while you're doing it! Neat. 
