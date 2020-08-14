@@ -7,9 +7,11 @@ There are a whole host of themes that are available within ggplot. As we've demo
 1. By adding a `+ theme_*()` layer onto your plot; or, 
 2. By setting the theme for the whole session using `theme_set(theme_*())`. 
 
-There are several themes that are built and maintained internal to the `ggplot` project. You can see a listing of them at[this link](https://ggplot2.tidyverse.org/reference/ggtheme.html). 
+(In both of those, you would replace the * with the theme name you want to use.)
 
-But, there are also a **ton** of other extensions that folks have built. Many of them are listed[at this github for ggthemes](https://github.com/jrnold/ggthemes). If you want to use these themes you can do the following: 
+There are several themes that are built and maintained internal to the `ggplot` project. You can see a listing of them at [this link](https://ggplot2.tidyverse.org/reference/ggtheme.html). 
+
+But, there are also a **ton** of other extensions that folks have built. Many of them are listed [at this github for ggthemes](https://github.com/jrnold/ggthemes). If you want to use these themes you can do the following: 
 
 ```
 install.packages('ggthemes', dependencies = TRUE)
