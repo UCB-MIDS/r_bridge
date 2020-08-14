@@ -10,7 +10,7 @@ In the lecture that you just saw, we accomplish this by smoothing the data using
 
 # Coding task 
 
-- Navigate to the [Datahub](https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-MIDS%2Fr_bridge&urlpath=rstudio%2F&branch=master) and open the code `how_to_smooth.Rmd`. 
+- Navigate to the [Datahub](https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-MIDS%2Fr_bridge&urlpath=rstudio%2F&branch=master) and open the code `how_to_summarize.Rmd`. 
 - This code will ask you to use the `stat_smooth()` function.   
 
 
