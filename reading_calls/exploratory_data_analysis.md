@@ -1,1 +1,3 @@
-Blank Code (to be replaced when class is executed) for exploratory_data_analysis.md
+# A blank page
+
+Right now, there's no work that I would like you to do at this page. Keep on [Truckin'](https://www.youtube.com/watch?v=pafY6sZt0FE).  
