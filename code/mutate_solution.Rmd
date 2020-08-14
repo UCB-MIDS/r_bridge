@@ -1,0 +1,47 @@
+---
+title: ''
+author: 'w203: Statistics for Data Science'
+date: "8/13/2020"
+output: github_document
+---
+
+```{r setup, results='hide', warning=FALSE, message=FALSE}
+library(tidyverse)
+```
+
+```{r load data, message=FALSE}
+agencies <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-15/agencies.csv')
+launches <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-15/launches.csv')
+```
+
+# Mutate Task 
+
+- Using the `agencies` data, create a series of variables that contain the log of the `count` of launches. 
+
+```{r}
+agencies_log <- agencies %>% 
+  mutate(count_log = log(count))
+
+agencies_log
+```
+
+> But not that you don't *have* to assign this to a new object.
+
+- Then, show only the columns that are called either `agency` or `contains()` the string "count". 
+
+```{r}
+agencies_log %>%  
+  select(agency, contains('count'))
+```
+
+- Finally, `arrange()` these descending by `count`. 
+
+```{r}
+agencies_log %>%  
+  select(agency, contains('count')) %>%  
+  arrange(desc(count))
+```
+
+> HA! It looks as though the data came in the door arranged by count. However, I would **never** suggest relying on this. If you want the data arranged by count, write the code to do so. The upstream data that comes into your analysis could change; potentially without you knowing. 
+> 
+> If you want your data to have some particualr characteristic, you should write the code that makes it be so. 

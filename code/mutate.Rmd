@@ -1,0 +1,35 @@
+---
+title: ''
+author: 'w203: Statistics for Data Science'
+date: "8/13/2020"
+output: github_document
+---
+
+```{r setup, results='hide', warning=FALSE, message=FALSE}
+library(tidyverse)
+```
+
+```{r load data, message=FALSE}
+agencies <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-15/agencies.csv')
+launches <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-15/launches.csv')
+```
+
+# Mutate Task 
+
+- Using the `agencies` data, create a series of variables that contain the log of the `count` of launches. 
+
+```{r}
+
+```
+
+- Then, show only the columns that are called either `agency` or `contains()` the string "count". 
+
+```{r}
+
+```
+
+- Finally, `arrange()` these descending by `count`. 
+
+```{r}
+
+```
