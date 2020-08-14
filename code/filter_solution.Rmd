@@ -1,0 +1,64 @@
+---
+title: ''
+author: 'w203: Statistics for Data Science'
+date: "8/13/2020"
+output: github_document
+---
+
+```{r setup, results='hide', warning=FALSE, message=FALSE}
+library(tidyverse)
+```
+
+```{r load data, results = 'hide', message=FALSE}
+agencies <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-15/agencies.csv')
+launches <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-01-15/launches.csv')
+```
+
+# Task 
+
+Use the magrittr pipr `%>%` and the `filter()` verb to do the following work: 
+
+## Launches in the 1980s
+
+Find only the launches that occurred in the 1980s 
+
+```{r}
+launches %>% 
+  filter(launch_year >= 1980) %>% 
+  filter(launch_year < 1990)
+```
+
+Or, equivalently
+
+```{r}
+launches %>% 
+  filter(launch_year >= 1980, launch_year < 1990)
+```
+
+## Launches by France 
+
+Find only the launches that were conducted by France (`state_code == "F"` )
+
+```{r}
+launches %>% 
+  filter(state_code == "F")
+```
+
+## Launches by France in the 1980s
+
+Find only the launches by France that were conducted in the 1980s
+
+```{r}
+launches %>% 
+  filter(launch_year >= 1980, launch_year < 1990, state_code == "F")
+```
+
+## Launches by France or Russia in the 1980s 
+
+Find launches in the 1980s by either France or the Soviet Union
+
+```{r}
+launches %>% 
+  filter(launch_year >= 1980, launch_year < 1990, state_code %in% c("F", "SU"))
+```
+
