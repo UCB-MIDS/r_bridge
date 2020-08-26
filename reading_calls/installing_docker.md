@@ -23,7 +23,7 @@ Docker can be installed for [Mac](https://docs.docker.com/docker-for-mac/install
 Once you have installed Docker, and with it running, you can pull a fully built environment onto your computer by issuing the following at the command line. 
 
     docker pull rocker/tidyverse
-    docker run --rm -v [path-to-local-files]:[rstudio/home/further-location-on-container] -p 8787:8787 -e PASSWORD=foo rocker/tidyverse
+    docker run --rm -v [path-to-local-files]:[/home/rstudio/further-location-on-container] -p 8787:8787 -e PASSWORD=foo rocker/tidyverse
 
 Here’s what is happening with that call: 
 
