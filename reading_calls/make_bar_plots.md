@@ -12,7 +12,7 @@ For me, the determination about which to use really comes down to: how easy is i
 
 # Coding task 
 
-- Navigate to the [Datahub](https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-MIDS%2Fr_bridge&urlpath=rstudio%2F&branch=master) and open the code `making_bar_plots.Rmd`. 
+- Navigate to the [Datahub](https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-MIDS%2Fr_bridge&urlpath=rstudio%2F&branch=master) and open the code `make_bar_plots.Rmd`. 
 - This code will ask you to make bar plots with different features.
 - Like the last code, we'll now be working with R Markdown files.  
 
