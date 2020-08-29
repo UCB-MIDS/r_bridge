@@ -104,7 +104,9 @@ dog_map <- function(dog_name = 'Princess') {
   ## dog and produces a percentage distribution 
   ## of that name compared to all the other names 
   ## in that zipcode. 
-  
+    # sf library needs the rocker/geospatial docker 
+    # image when running locally
+    require(sf)
     nyc_license %>% 
       group_by(zip_code, animal_name) %>%  
       summarise(total = n()) %>%  
