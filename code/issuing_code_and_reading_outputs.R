@@ -106,7 +106,12 @@ dog_map <- function(dog_name = 'Princess') {
   ## in that zipcode. 
     # sf library needs the rocker/geospatial docker 
     # image when running locally
-    require(sf)
+    if ( !require(sf) ) {
+        
+    }
+    if (!require('sf')) {
+      stop('sf package requires the docker image: rocker/geospatial')
+    }
     nyc_license %>% 
       group_by(zip_code, animal_name) %>%  
       summarise(total = n()) %>%  
