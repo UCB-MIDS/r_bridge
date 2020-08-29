@@ -2,7 +2,7 @@
 
 The x and y coordinate mappings are the most straightforward set of mappings that we typically interact with in the `aes()` function call. But, we can map more data into our plot by passing additional aesthetic arguments. 
 
-The `color` and `fill` aesthetic mappings change the colors of the geometries that are plotted, depending on values that they are mapped to. When the data passed to these arguments are continuous, the colors will be placed onto a gradient scale; when the data passed to these arguments are categorical, a different color will be used for each level within the variable. These are the two aesthetics that I most frequently 
+The `color` and `fill` aesthetic mappings change the colors of the geometries that are plotted, depending on values that they are mapped to. When the data passed to these arguments are continuous, the colors will be placed onto a gradient scale; when the data passed to these arguments are categorical, a different color will be used for each level within the variable. These are the two aesthetics that I use most frequently 
 
 One piece of trivia, that actually ends up mattering -- color defines the external “outline” of geometries, while will defines the internal colors of the geometries. 
 
