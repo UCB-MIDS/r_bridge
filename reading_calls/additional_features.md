@@ -4,7 +4,7 @@ The x and y coordinate mappings are the most straightforward set of mappings tha
 
 The `color` and `fill` aesthetic mappings change the colors of the geometries that are plotted, depending on values that they are mapped to. When the data passed to these arguments are continuous, the colors will be placed onto a gradient scale; when the data passed to these arguments are categorical, a different color will be used for each level within the variable. These are the two aesthetics that I most frequently 
 
-One piece of trivia, that actually ends up mattering -- color defines the external “outline” of geometries, while will defines the internal colors of the geometries. 
+One piece of trivia, that actually ends up mattering -- color defines the external “outline” of geometries, while fill defines the internal colors of the geometries. 
 
 The `shape` of a geometry can also be set by a variable in the data. Shape most often affects geom_point, but also a few other geometries that you might find to use. 
 
