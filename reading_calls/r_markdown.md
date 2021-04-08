@@ -10,6 +10,6 @@ There are several benefits to this:
 
 Now, I'd like you to read a little more detail about the system in R For Data Science. Please read the following: 
 
-- [https://r4ds.had.co.nz/communicate-intro.html](Chapter 26) in the digital version of _R For Data Science_ and [https://r4ds.had.co.nz/r-markdown.html](Chapter 27) in the same. 
+- [Chapter 26](https://r4ds.had.co.nz/communicate-intro.html) in the digital version of _R For Data Science_ and [Chapter 27](https://r4ds.had.co.nz/r-markdown.html) in the same. 
 - In Chapter 27, read sections 1-6, skipping section 7. 
 - If you're reading in the physical copy, these are the chapters about "Communicating" and "R Markdown"
