@@ -1,10 +1,10 @@
 # The UCB Datahub 
 
-The most straightforward way to start working with R is to use the UC Berkeley datahub environment that is provided to you as a student. This hub is located at [http://r.datahub.berkeley.edu](http://r.datahub.berkeley.edu) and requires only that you use your UCB Single Sign on to authenticate. Upon following this link: 
+The most straightforward way to start working with R is to use the UC Berkeley datahub environment that is provided to you as a student. This hub is located at [http://ischool.datahub.berkeley.edu](http://ischool.datahub.berkeley.edu) and requires only that you use your UCB Single Sign on to authenticate. Upon following this link: 
 
 - Authenticate with your Single Sign On 
-- Authorize this app on the next page that you are presented with
-- Profit! 
+- Click to authorize this app
+- Get coding! 
 
 This has built and is running an instance of Rstudio on UC Berkeley resources that you can fully articulate. There are several features to this _out of the box_: 
 
