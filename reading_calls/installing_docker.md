@@ -18,11 +18,11 @@ So long as you don’t have much to put on, this actually might be the most effi
 
 Instead, the idea behind docker is that every person (or application, or task) gets its own container that has a predefined shape that all fit together in a predictable way. Each of these containers it upon a common framework (your computer resources) and have proscribed input, output, and compute access. To return to the analogy, this way, you can pack your house/apartment inside a container, and can stack it on top of someone else's container in a predictable way. If the ship is empty this is probably overkill; but, as things become more complex, this structure becomes really, really useful to have. 
 
-Docker can be installed for [Mac](https://docs.docker.com/docker-for-mac/install/), [Windows](https://docs.docker.com/docker-for-windows/install/), and probably any other arbitrary system that you’re working on from the general [install page](https://docs.docker.com/install/).. 
+Docker can be installed for [Mac](https://docs.docker.com/docker-for-mac/install/), [Windows](https://docs.docker.com/docker-for-windows/install/), and probably any other arbitrary system that you’re working on from the general [install page](https://docs.docker.com/install/).
 
 Once you have installed Docker, and with it running, you can pull a fully built environment onto your computer by issuing the following at the command line. 
 
-    docker pull rocker/tidyverse
+    docker pull rocker/geospatial
     docker run --rm -v [path-to-local-files]:[/home/rstudio/further-location-on-container] -p 8787:8787 -e PASSWORD=foo rocker/tidyverse
 
 Here’s what is happening with that call: 
@@ -32,7 +32,7 @@ Here’s what is happening with that call:
 - `-v` specifies that we would like to mount a volume (a file folder) into this container from our local machine to the container that is running. We have to specify both where it exists locally, and where we would like it to exist on the container
 - `-p` specifies what port we would like to view this on; a standard choice that is reserved for this type of work is port 8787. Here, we’re specifying that we would like port 8787 on the local machine to interface with port 8787 on the container. 
 - `-e` sets an additional environment variable that we’re going to need to login to the rstudio server, namely the password. Here we’re setting this to a benign value of foo. 
-`rocker/tidyverse` is the container image that we want to run. 
+`rocker/geospatial` is the container image that we want to run. Notice that we're pulling a *large* image that has some geospatial libraries included in it. In particular we're going to use `sf` which is a "shape files" library later in the course. One could pull a smaller image for day-to-day work if you wanted; consider `rocker/verse` for this. There is a general principle at play here, maybe a Occam's razor for computing: take only what you need because you don't want to support more than absolutely necessary. 
 
 So, if you were to narrate that entire call from front to back, it would read as: 
 
