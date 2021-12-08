@@ -7,8 +7,6 @@ output: github_document
 
 ```{r setup, include=FALSE}
 library(tidyverse)
-
-ggplot2::diamonds
 ```
 
 # Paste Farm Code 
