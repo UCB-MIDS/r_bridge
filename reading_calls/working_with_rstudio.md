@@ -7,7 +7,7 @@ The work is going to be simple -- I am asking you to execute code that has alrea
 - The goal is that you can start to work with the tool; articulate it and see how it responds. 
 - This way, when we move forward you can use the tool to answer questions that you're interested in. 
 
-If you click [this link to the UCB Datahub](https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-MIDS%2Fr_bridge&urlpath=rstudio%2F&branch=master) the datahub will pull a current version of the code that I would like you to work on. 
+If you click [this link to the UCB Datahub](https://ischool.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-MIDS%2Fr_bridge&urlpath=rstudio%2F&branch=master) the datahub will pull a current version of the code that I would like you to work on. 
 
 When the datahub starts up, navigate to the `r_bridge` folder, and then `code` and then to the file called, `working_with_rstudio.R`. 
 

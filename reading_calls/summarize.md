@@ -33,5 +33,5 @@ As a result of this call, we would return back a single number, with the name av
 
 # Coding task 
 
-- Navigate to the [Datahub](https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-MIDS%2Fr_bridge&urlpath=rstudio%2F&branch=master) and open the code summarize.Rmd`. 
+- Navigate to the [Datahub](https://ischool.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-MIDS%2Fr_bridge&urlpath=rstudio%2F&branch=master) and open the code summarize.Rmd`. 
 - This code will ask you to produce a few short summaries of data. 

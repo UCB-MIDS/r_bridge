@@ -15,7 +15,7 @@ The `size` of a geometry determines the size (in mm) of the geometry. For points
 
 # Coding task 
 
-- Navigate to the [Datahub](https://r.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-MIDS%2Fr_bridge&urlpath=rstudio%2F&branch=master) and open the code `additional_plot_features.Rmd`. 
+- Navigate to the [Datahub](https://ischool.datahub.berkeley.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUCB-MIDS%2Fr_bridge&urlpath=rstudio%2F&branch=master) and open the code `additional_plot_features.Rmd`. 
 - This code will ask you to make scatter plots with different features.
 - Note that we're switching to working with R Markdown file now, which are enhancements over the .R files that we've been using to this point. We'll explain that in the file itself. 
 
