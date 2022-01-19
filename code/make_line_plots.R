@@ -1,7 +1,7 @@
 library(tidyverse)
 library(ggplot2)
 
-squirrel_subset <- read_csv('./squirrels_subset.csv ')
+squirrel_subset <- read_csv('./squirrels_subset.csv')
 
 squirrel_subset <- squirrel_subset %>%
   mutate(date_f = as.Date.character(date, format = '%m%d%Y'))
