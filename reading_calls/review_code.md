@@ -1,6 +1,6 @@
 # Review Code 
 
-This [https://www.nature.com/articles/nenergy2016170](article) applies simple models on top of survey data from respondents who live in rural India. It was published at Nature Energy, which is in the _Nature_ constellation of publication venues. 
+This [article](https://www.nature.com/articles/nenergy2016170) applies simple models on top of survey data from respondents who live in rural India. It was published at Nature Energy, which is in the _Nature_ constellation of publication venues. 
 
 I would hate for someone to remark this about my research, but there's nothing really extraordinary about this work. But, we learned something from it. A small thing, but something that _Natue_ thought was important enough to publish. 
 
