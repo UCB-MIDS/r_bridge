@@ -78,7 +78,7 @@ launches %>%
     ## 6 1958… 2.44e6 1958-03-05         1958 Jupi… JunoI   Explor… US     US        
     ## # … with 2 more variables: category <chr>, agency_type <chr>
 
-  - Still using the head verb, use the `desec()` adverb to print the
+  - Still using the head verb, use the `desc()` adverb to print the
     *most recent* launches
 
 <!-- end list -->
