@@ -41,7 +41,7 @@ At that point, we asked a challenge question of you, that asked,
 
 > Could you also make this plot and represent the color of the squirrels in the plot? 
 
-Here, I've written the firs set of lines that would do this for you -- this takes the squirrel subset data, groups by date and fur color, and then counts the number of squirrels that are observed in each of these combinations. 
+Here, I've written the first set of lines that would do this for you -- this takes the squirrel subset data, groups by date and fur color, and then counts the number of squirrels that are observed in each of these combinations. 
 
 Complete the plot, by: 
 
@@ -66,7 +66,7 @@ Although I think that it is probably uniformly **less** effective of a represent
 - However, at least their fair about telling you that you'll have to use the `vars()` function -- look into the help documentation for this function.
 
 ```{r}
-#?facet_wrap()
+?facet_wrap()
 ```
 
 - Like before, I'll start you down the road for this plot by doing the data mapping. 
