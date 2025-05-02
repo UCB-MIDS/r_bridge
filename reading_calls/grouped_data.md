@@ -1,7 +1,6 @@
 # Grouped data
 
-We've just discussed approaches to make visual comparisons between groups. The approach we want to use depends on
-what particular comparisons we want to make between the groups, how many groups we have to compare, and even differences in the scales of these two groups.
+We've just discussed approaches to make visual comparisons between groups. The approach we want to use depends on what particular comparisons we want to make between the groups, how many groups we have to compare, and even differences in the scales of these two groups.
 
 Now, we'll practice both approaches we covered with the `nyc_squirrels` dataset.
 
